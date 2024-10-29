@@ -104,12 +104,12 @@ const Footer = () => {
       <div className='w-full lg:px-20 px-5 py-[40px] bg-gray-100'>
         <hr className='border-t border-gray-300 py-3'/>
         <div className='w-full flex lg:flex-row flex-col justify-between items-center lg:gap-4 gap-10 flex-grow '>
-          <div className='lg:w-[15%] w-full flex justify-start items-center gap-4 px-[50px]  '>
+          {/* <div className='lg:w-[15%] w-full flex justify-start items-center gap-4 px-[50px]  '>
             <img src={pay1} alt="" className='w-[50%] rounded-lg'/>
             <img src={pay2} alt="" className='w-[50%] rounded-lg'/>
             <img src={pay3} alt="" className='w-[50%] rounded-lg'/>
             <img src={pay4} alt="" className='w-[50%] rounded-lg'/>
-          </div>
+          </div> */}
           <div className='lg:w-[60%] w-full flex lg:flex-row flex-col justify-center items-center gap-4 flex-grow'>
             <h1 className='text-black font-semibold text-2xl'>Subscribe Newletter</h1>
             <div>
